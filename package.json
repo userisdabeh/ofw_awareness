@@ -1,0 +1,28 @@
+{
+  "name": "ofw_awareness",
+  "version": "1.0.0",
+  "description": "- Gagala, Dave Anthony",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/userisdabeh/ofw_awareness.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/userisdabeh/ofw_awareness/issues"
+  },
+  "homepage": "https://github.com/userisdabeh/ofw_awareness#readme",
+  "dependencies": {
+    "express": "^5.1.0"
+  },
+  "devDependencies": {
+    "dotenv": "^17.2.1",
+    "nodemon": "^3.1.10"
+  }
+}
