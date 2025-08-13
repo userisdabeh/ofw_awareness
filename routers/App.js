@@ -38,4 +38,8 @@ router.get('/articles/bagani-ng-nayon', (req, res) => {
     res.sendFile(path.join(__dirname, '../views/articles/bagani-ng-nayon.html'));
 });
 
+router.get('/interviews/tyrone-maningas', (req, res) => {
+    res.sendFile(path.join(__dirname, '../views/interviews/tyrone-maningas.html'));
+});
+
 module.exports = router;

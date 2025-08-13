@@ -12,3 +12,24 @@ article {
     color: black;
     text-align: justify;
 }
+
+.quote {
+    font-style: italic;
+    background-color: #ffff0016;
+    border-radius: 8px;
+    border-left: 5px solid yellow;
+    padding: 32px;
+    font-size: 1.1rem;
+}
+
+.text-w-photo {
+    display: flex;
+    gap: 16px;
+}
+
+.article-img {
+    width: 17%;
+    border-radius: 8px;
+    object-fit: cover;
+    aspect-ratio: 2/3;
+}
