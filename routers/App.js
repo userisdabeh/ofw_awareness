@@ -26,4 +26,16 @@ router.get('/movies', (req, res) => {
     res.sendFile(path.join(__dirname, '../views/movies.html'));
 });
 
+router.get('/articles/bagani-sa-daloy-ng-panahon', (req, res) => {
+    res.sendFile(path.join(__dirname, '../views/articles/bagani-sa-daloy-ng-panahon.html'));
+});
+
+router.get('/articles/ang-republic-act-no-11641', (req, res) => {
+    res.sendFile(path.join(__dirname, '../views/articles/ra11641.html'));
+});
+
+router.get('/articles/bagani-ng-nayon', (req, res) => {
+    res.sendFile(path.join(__dirname, '../views/articles/bagani-ng-nayon.html'));
+});
+
 module.exports = router;
