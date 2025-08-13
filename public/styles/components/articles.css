@@ -6,10 +6,3 @@ article {
     color: black;
     border-left: 5px solid yellow;
 }
-
-.article-content-preview {
-    white-space: nowrap;
-    overflow: hidden;
-    text-overflow: ellipsis;
-    max-width: 90%;
-}

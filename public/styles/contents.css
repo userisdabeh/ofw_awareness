@@ -12,6 +12,7 @@ footer {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    height: 70px;
 }
 
 .footer-left, .footer-rights {
@@ -61,4 +62,11 @@ body {
     font-family: 'Inter', sans-serif;
     background-color: rgb(16,24,40);
     color: white;
+}
+
+.article-content-preview {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    max-width: 90%;
 }

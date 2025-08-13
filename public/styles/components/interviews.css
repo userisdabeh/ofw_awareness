@@ -1,0 +1,12 @@
+article {
+    border: 1px solid rgb(99, 99, 0);
+    border-radius: 8px;
+    padding: 16px;
+    background-color: whitesmoke;
+    color: black;
+    border-left: 5px solid yellow;
+}
+
+.interviews {
+    min-height: calc(100vh - 180px - 70px);
+}
