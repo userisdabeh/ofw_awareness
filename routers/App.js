@@ -46,4 +46,8 @@ router.get('/about', (req, res) => {
     res.sendFile(path.join(__dirname, '../views/about.html'));
 });
 
+router.get('/disclaimer', (req, res) => {
+    res.sendFile(path.join(__dirname, '../views/disclaimer.html'));
+});
+
 module.exports = router;
