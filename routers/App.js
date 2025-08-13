@@ -12,6 +12,10 @@ router.get('/home', (req, res) => {
 
 router.get('/articles', (req, res) => {
     res.sendFile(path.join(__dirname, '../views/articles.html'));
-})
+});
+
+router.get('/interviews', (req, res) => {
+    res.sendFile(path.join(__dirname, '../views/interviews.html'));
+});
 
 module.exports = router;

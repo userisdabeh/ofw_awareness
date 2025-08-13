@@ -2,7 +2,9 @@ article {
     border: 1px solid rgb(99, 99, 0);
     border-radius: 8px;
     padding: 16px;
-    background-color: rgb(6,10,16);
+    background-color: whitesmoke;
+    color: black;
+    border-left: 5px solid yellow;
 }
 
 .article-content-preview {
