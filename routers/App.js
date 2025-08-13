@@ -22,4 +22,8 @@ router.get('/gallery', (req, res) => {
     res.sendFile(path.join(__dirname, '../views/photos.html'));
 });
 
+router.get('/movies', (req, res) => {
+    res.sendFile(path.join(__dirname, '../views/movies.html'));
+});
+
 module.exports = router;

@@ -1,0 +1,28 @@
+.detail-wrapper {
+    display: flex;
+    flex-direction: column;
+    padding: 16px;
+}
+
+.movies-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 16px;
+}
+
+.movie-poster {
+    width: 100%;
+    aspect-ratio: 2/3;
+    object-fit: cover;
+    border-top-left-radius: inherit;
+    border-top-right-radius: inherit;
+}
+
+article.movie {
+    border-radius: 8px;
+    background-color: whitesmoke;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0 0 8px rgba(255, 255, 255, 0.5);
+}
