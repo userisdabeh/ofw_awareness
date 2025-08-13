@@ -10,3 +10,8 @@ a {
     text-decoration: none;
     color: inherit;
 }
+
+h1.reset, h2.reset, h3.reset, h4.reset, h5.reset, h6.reset, p.reset, span.reset {
+    margin: 0 !important;
+    padding: 0 !important;
+}
