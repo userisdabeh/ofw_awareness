@@ -1,0 +1,73 @@
+.hero {
+    display: flex;
+    align-items: center;
+    height: calc(100vh - 150px);
+    gap: 32px;
+}
+
+.hero-content {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    width: 60%;
+}
+
+.hero-image {
+    width: 40%;
+    border-radius: 8px;
+}
+
+.hero-image img {
+    border-radius: inherit;
+    aspect-ratio: 1/1;
+    object-fit: cover;
+}
+
+.badge {
+    width: fit-content !important;
+}
+
+.supertitle {
+    font-size: 6rem;
+    letter-spacing: -0.02em;
+}
+
+.fit {
+    width: fit-content !important;
+}
+
+.editor {
+    background-color: rgb(24,35,53);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 32px;
+}
+
+.editor-header {
+    width: 50%;
+}
+
+.editors-preview {
+    background-color: white;
+    color: black;
+    padding: 32px;
+    border-radius: 8px;
+    width: 50%;
+}
+
+.editors-note {
+    font-size: 0.8rem;
+}
+
+.line-below {
+    padding-bottom: 16px;
+    box-shadow: 0 0.5px 0 black;
+}
+
+span.line {
+    display: block;
+    width: 25%;
+    height: 1px;
+    background-color: yellow;
+}
